@@ -1,0 +1,10 @@
+{
+  "name": "食事＆PFCバランス管理アプリ",
+  "description": "5つの代謝タイプ別（脂質・糖質・筋肉・ストレス・低代謝）の食事・PFC分析と、会員様向けLINE返信メッセージ作成・コピペ対応アプリ",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
