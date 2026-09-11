@@ -9,17 +9,17 @@ import {
   saveActiveUserId,
   DEFAULT_PROFILES,
   getDailySummary,
-} from "./services/storage";
-import { formatDate, generateInitialMeals, generateSampleMealsForUserB } from "./data/sampleData";
-import { Header } from "./components/Header";
-import { TodaySummary } from "./components/TodaySummary";
-import { MealList } from "./components/MealList";
-import { AnalysisGraphView } from "./components/AnalysisGraphView";
-import { CameraAIModal } from "./components/CameraAIModal";
-import { GoalSettingsModal } from "./components/GoalSettingsModal";
-import { ManualAddModal } from "./components/ManualAddModal";
-import { UserProfileModal } from "./components/UserProfileModal";
-import { LineReplyModal } from "./components/LineReplyModal";
+} from "./storage";
+import { formatDate, generateInitialMeals, generateSampleMealsForUserB } from "./sampleData";
+import { Header } from "./Header";
+import { TodaySummary } from "./TodaySummary";
+import { MealList } from "./MealList";
+import { AnalysisGraphView } from "./AnalysisGraphView";
+import { CameraAIModal } from "./CameraAIModal";
+import { GoalSettingsModal } from "./GoalSettingsModal";
+import { ManualAddModal } from "./ManualAddModal";
+import { UserProfileModal } from "./UserProfileModal";
+import { LineReplyModal } from "./LineReplyModal";
 import { CheckCircle2, Sparkles, Camera, BarChart3, RotateCcw, Smartphone, MessageSquare } from "lucide-react";
 
 export default function App() {
